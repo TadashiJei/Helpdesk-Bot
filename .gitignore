@@ -1,0 +1,15 @@
+node_modules
+.env
+.prettierrc
+.idea
+.vscode
+config.js
+database.db
+convert.ts
+yarn.lock
+package-lock.json
+dist/
+*.zip
+*.rar
+config-dev.yml
+config-rel.yml

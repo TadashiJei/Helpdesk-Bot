@@ -1,0 +1,35 @@
+{
+	"name": "quickhelp",
+	"version": "2.4.0",
+	"description": "Build an interactive FAQ knowledge base in your Discord server, reducing repetitive questions and improving member self-service.",
+	"main": "src/index.ts",
+	"scripts": {
+		"start": "ts-node src/index.ts",
+		"dev": "nodemon src/index.ts",
+		"build": "tsc",
+		"dist": "node dist/index.js",
+		"clean": "node clean.js"
+	},
+	"keywords": [],
+	"author": "Tadashi Jei",
+	"license": "MIT",
+	"devDependencies": {
+		"@ianvs/prettier-plugin-sort-imports": "^4.1.1",
+		"@types/js-yaml": "^4.0.5",
+		"@types/node": "^20.10.1",
+		"discord-api-types": "^0.37.65",
+		"nodemon": "^3.0.1",
+		"prettier": "^3.1.0",
+		"ts-node": "^10.9.1",
+		"typescript": "^5.3.2"
+	},
+	"dependencies": {
+		"ansi-colors": "^4.1.3",
+		"dayjs": "^1.11.10",
+		"discord.js": "^14.14.1",
+		"fuse.js": "^7.0.0",
+		"js-yaml": "^4.1.0",
+		"nhandler": "^2.2.0",
+		"zod": "^3.22.4"
+	}
+}

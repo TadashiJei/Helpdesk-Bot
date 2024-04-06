@@ -1,0 +1,244 @@
+##########################################################
+# This is the configuration file for the helpdesk bot.
+# Any lines starting with a # are comments and will be ignored.
+# Above each key is a description of what that property does,
+#   so make sure you read it if you don't know.
+# Thank you for your purchase.
+##########################################################
+
+# This is the token for your discord bot. It is required.
+# You can get it from the Discord Developer Portal @ https://discord.com/developers/applications/.
+token: "YOUR TOKEN HERE"
+# This is the text for the bot's status. You can leave this empty ("") or remove this key in its entirety if you do not want status.
+status: ""
+# This is a list of the IDs of the users who can use the bot.
+# You can get a your/any user's ID by enabling developer mode in Discord and right clicking on your/their name.
+owners:
+  - "YOUR USER ID"
+# The ID of the channel where button press logs will be sent.
+# Optional - leave empty ("") to disable.
+log_channel_id: ""
+# Configuration for the embed generated upon running /create.
+embed_content:
+  # The title of the embed.
+  title: "Support Embed Title"
+
+  # The hex code for your embed color.
+  color: "50ff38"
+
+  image:
+    # Toggles whether or not the image is enabled.
+    enabled: false
+    # The URL of the image. Required if `enabled` parameter is true.
+    url: ""
+
+  thumbnail:
+    # Toggles whether or not the thumbnail is enabled.
+    enabled: false
+    # The URL of the thumbnail. Required if `enabled` parameter is true.
+    url: ""
+
+# A list of questions visible in the helpdesk embed along with their respective responses.
+# You can add up to 10.
+questions:
+  - question: "Question 1"
+    response:
+      # The title of the response embed.
+      title: "Response 1"
+      # The hex code for your embed color.
+      color: "50ff38"
+      # The description of the response embed.
+      description: "This is the description of the response embed."
+
+      image:
+        # Toggles whether or not the image is enabled.
+        enabled: false
+        # The URL of the image. Required if `enabled` parameter is true.
+        url: ""
+
+      thumbnail:
+        # Toggles whether or not the thumbnail is enabled.
+        enabled: false
+        # The URL of the thumbnail. Required if `enabled` parameter is true.
+        url: ""
+
+  - question: "Question 2"
+    response:
+      # The title of the response embed.
+      title: "Response 2"
+      # The hex code for your embed color.
+      color: "50ff38"
+      # The description of the response embed.
+      description: "This is the description of the response embed."
+
+      image:
+        # Toggles whether or not the image is enabled.
+        enabled: false
+        # The URL of the image. Required if `enabled` parameter is true.
+        url: ""
+
+      thumbnail:
+        # Toggles whether or not the thumbnail is enabled.
+        enabled: false
+        # The URL of the thumbnail. Required if `enabled` parameter is true.
+        url: ""
+  - question: "Question 3"
+    response:
+      # The title of the response embed.
+      title: "Response 3"
+      # The hex code for your embed color.
+      color: "50ff38"
+      # The description of the response embed.
+      description: "This is the description of the response embed."
+
+      image:
+        # Toggles whether or not the image is enabled.
+        enabled: false
+        # The URL of the image. Required if `enabled` parameter is true.
+        url: ""
+
+      thumbnail:
+        # Toggles whether or not the thumbnail is enabled.
+        enabled: false
+        # The URL of the thumbnail. Required if `enabled` parameter is true.
+        url: ""
+  - question: "Question 4"
+    response:
+      # The title of the response embed.
+      title: "Response 4"
+      # The hex code for your embed color.
+      color: "50ff38"
+      # The description of the response embed.
+      description: "This is the description of the response embed."
+
+      image:
+        # Toggles whether or not the image is enabled.
+        enabled: false
+        # The URL of the image. Required if `enabled` parameter is true.
+        url: ""
+
+      thumbnail:
+        # Toggles whether or not the thumbnail is enabled.
+        enabled: false
+        # The URL of the thumbnail. Required if `enabled` parameter is true.
+        url: ""
+  - question: "Question 5"
+    response:
+      # The title of the response embed.
+      title: "Response 5"
+      # The hex code for your embed color.
+      color: "50ff38"
+      # The description of the response embed.
+      description: "This is the description of the response embed."
+
+      image:
+        # Toggles whether or not the image is enabled.
+        enabled: false
+        # The URL of the image. Required if `enabled` parameter is true.
+        url: ""
+
+      thumbnail:
+        # Toggles whether or not the thumbnail is enabled.
+        enabled: false
+        # The URL of the thumbnail. Required if `enabled` parameter is true.
+        url: ""
+  - question: "Question 6"
+    response:
+      # The title of the response embed.
+      title: "Response 6"
+      # The hex code for your embed color.
+      color: "50ff38"
+      # The description of the response embed.
+      description: "This is the description of the response embed."
+
+      image:
+        # Toggles whether or not the image is enabled.
+        enabled: false
+        # The URL of the image. Required if `enabled` parameter is true.
+        url: ""
+
+      thumbnail:
+        # Toggles whether or not the thumbnail is enabled.
+        enabled: false
+        # The URL of the thumbnail. Required if `enabled` parameter is true.
+        url: ""
+  - question: "Question 7"
+    response:
+      # The title of the response embed.
+      title: "Response 7"
+      # The hex code for your embed color.
+      color: "50ff38"
+      # The description of the response embed.
+      description: "This is the description of the response embed."
+
+      image:
+        # Toggles whether or not the image is enabled.
+        enabled: false
+        # The URL of the image. Required if `enabled` parameter is true.
+        url: ""
+
+      thumbnail:
+        # Toggles whether or not the thumbnail is enabled.
+        enabled: false
+        # The URL of the thumbnail. Required if `enabled` parameter is true.
+        url: ""
+  - question: "Question 8"
+    response:
+      # The title of the response embed.
+      title: "Response 8"
+      # The hex code for your embed color.
+      color: "50ff38"
+      # The description of the response embed.
+      description: "This is the description of the response embed."
+
+      image:
+        # Toggles whether or not the image is enabled.
+        enabled: false
+        # The URL of the image. Required if `enabled` parameter is true.
+        url: ""
+
+      thumbnail:
+        # Toggles whether or not the thumbnail is enabled.
+        enabled: false
+        # The URL of the thumbnail. Required if `enabled` parameter is true.
+        url: ""
+  - question: "Question 9"
+    response:
+      # The title of the response embed.
+      title: "Response 9"
+      # The hex code for your embed color.
+      color: "50ff38"
+      # The description of the response embed.
+      description: "This is the description of the response embed."
+
+      image:
+        # Toggles whether or not the image is enabled.
+        enabled: false
+        # The URL of the image. Required if `enabled` parameter is true.
+        url: ""
+
+      thumbnail:
+        # Toggles whether or not the thumbnail is enabled.
+        enabled: false
+        # The URL of the thumbnail. Required if `enabled` parameter is true.
+        url: ""
+  - question: "Question 10"
+    response:
+      # The title of the response embed.
+      title: "Response 10"
+      # The hex code for your embed color.
+      color: "50ff38"
+      # The description of the response embed.
+      description: "This is the description of the response embed."
+
+      image:
+        # Toggles whether or not the image is enabled.
+        enabled: false
+        # The URL of the image. Required if `enabled` parameter is true.
+        url: ""
+
+      thumbnail:
+        # Toggles whether or not the thumbnail is enabled.
+        enabled: false
+        # The URL of the thumbnail. Required if `enabled` parameter is true.
+        url: ""
