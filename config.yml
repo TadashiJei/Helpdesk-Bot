@@ -1,9 +1,9 @@
 ##########################################################
-# This is the configuration file for the helpdesk bot.
+# This is the configuration file for the Quick Help bot.
 # Any lines starting with a # are comments and will be ignored.
 # Above each key is a description of what that property does,
-#   so make sure you read it if you don't know.
-# Thank you for your purchase.
+# So make sure you read it if you don't know.
+# Thank you for Using Tadashi Jei Helpdesk Bot!
 ##########################################################
 
 # This is the token for your discord bot. It is required.
